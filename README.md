@@ -31,7 +31,7 @@ It contains U.S. housing market indicators from 2003–2025, including:
 - **Python**: pandas, numpy, scikit-learn
 - **Visualization/UI**: matplotlib, Streamlit
 - **Version control**: Git & GitHub  
-
+- **ML models**: Random forest
 ---
 
 ## Authors
