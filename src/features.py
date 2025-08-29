@@ -35,9 +35,12 @@ def build_features(
     use_cols = list(cols) if cols is not None else [c for c in DEFAULT_LAG_COLS if c in out.columns]
     out = add_lags(out, cols=use_cols, lags=lags)
 
+    if "home_price_index" in out.columns:
+        out["home_price_index"] = out["home_price_index"].shift(-1)
+
     if dropna:
-        new_cols = [f"{c}_lag{L}" for c in use_cols for L in lags if f"{c}_lag{L}" in out.columns]
-        out = out.dropna(subset=new_cols)
+        lag_cols = [f"{c}_lag{L}" for c in use_cols for L in lags if f"{c}_lag{L}" in out.columns]
+        out = out.dropna(subset=lag_cols + ["home_price_index"])
 
     return out
 
