@@ -1,5 +1,4 @@
-# Housing Crash Simulator 
----
+# Housing Crash Simulator ---
 
 U.S. housing prices are highly sensitive to economic fluctuations. Events such as rising interest rates or spikes in unemployment can quickly destabilize the market. However, there is a lack of clear and accessible tools for exploring “what-if” housing crash scenarios. To address this gap, we developed a machine learning model that acts as a housing crash probability simulator, enabling users to test how different scenarios might affect the housing market.
 
