@@ -34,7 +34,8 @@ It contains U.S. housing market indicators from 2003–2022, including:
 - **Visualization**: matplotlib, Tableau Public, Streamlit
 - **Version control**: Git & GitHub  
 - **ML models**: Linear Regression, Random Forest
-  
+- [Presentation](https://docs.google.com/presentation/d/1t2Ebq2lJ2uK7tw7e7eI4wWVfkjm6UCHRCP2EcPVMbMU/edit?usp=sharing)
+
 ---
 
 ## Authors
