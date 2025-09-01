@@ -2,7 +2,7 @@
 
 U.S. housing prices are highly sensitive to economic fluctuations. Events such as rising interest rates or spikes in unemployment can quickly destabilize the market. However, there is a lack of clear and accessible tools for exploring “what-if” housing crash scenarios. To address this gap, we developed a machine learning model that acts as a housing crash probability simulator, enabling users to test how different scenarios might affect the housing market.
 
-Given that all variables—including the outcome variable, Home Price Index—are continuous and measured over time, Linear Regression and Random Forest models were identified as the most suitable machine learning approaches for this dataset. Of the two, the Random Forest model outperformed Linear Regression, achieving a lower MAE (#) and a higher R^2 value (#).
+Given that all variables—including the outcome variable, Home Price Index—are continuous and measured over time, Linear Regression, Decision Tree, and Ridge Regression models were evaluated as suitable approaches for this dataset. Among the three, Ridge Regression outperformed, achieving a lower MAE (#) and a higher R² value (#).
  
 
 ## Features
@@ -30,7 +30,7 @@ It contains U.S. housing market indicators from 2003–2022, including:
 - **Python**: pandas, numpy, scikit-learn
 - **Visualization**: matplotlib, Tableau Public, Streamlit
 - **Version control**: Git & GitHub  
-- **ML models**: Linear Regression, Random Forest
+- **ML models**: Linear Regression, Decision Tree, Ridge Regression
 - [Presentation](https://docs.google.com/presentation/d/1t2Ebq2lJ2uK7tw7e7eI4wWVfkjm6UCHRCP2EcPVMbMU/edit?usp=sharing)
 
 
