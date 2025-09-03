@@ -5,3 +5,5 @@ scikit-learn
 streamlit
 seaborn
 joblib
+altair
+json
